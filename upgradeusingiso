@@ -1,0 +1,2 @@
+sudo mount -t iso9660 -o loop PATH/TO/ISO /cdrom
+sudo /cdrom/cdromupgrade
