@@ -1,2 +1,8 @@
 sudo mount -t iso9660 -o loop PATH/TO/ISO /cdrom
 sudo /cdrom/cdromupgrade
+
+Alternate
+
+1. sudo mkdir -p /media/cdrom
+2. sudo mount -o loop ~/Desktop/ubuntu-12.04-alternate-i386.iso /media/cdrom
+3. gksu sh /media/cdrom/cdromupgrade
